@@ -10,5 +10,5 @@ export class CreateAuthorInput {
   lastName?: string;
 
   @Field(() => [Book])
-  books: Book[];
+  books?: Book[];
 }
